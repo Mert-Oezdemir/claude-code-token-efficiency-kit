@@ -1,0 +1,23 @@
+# Secret and local tooling state
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.log
+*.jsonl
+*.sqlite
+*.sqlite3
+.DS_Store
+__pycache__/
+.pytest_cache/
+node_modules/
+.venv/
+.graphify/
+graphify-out/
+.headroom/
+.claude/projects/
+.codeburn/
+*.zip
+*.bundle
